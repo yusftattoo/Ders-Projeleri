@@ -1,0 +1,98 @@
+/* Genel stil ayarları */
+body {
+    background-color: rgb(221, 85, 103);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Ana ekran kapsayıcısı */
+.hero-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
+    flex-direction: column;
+}
+/* Form kapsayıcısı */
+.hero-content {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(23, 24, 24);
+    padding: 15px 25px;
+    background: rgb(87, 85, 85);
+    border-radius: 15px;
+    margin-bottom: auto;
+}
+
+/* Başlık stili */
+.title {
+    text-align: center;
+    font-size: 32px;
+    color: #f1e2e2;
+    margin-top: 50px;
+}
+
+/* Açıklama stili */
+.description {
+    font-size: 16px;
+    text-align: center;
+    color: #f1e2e2;
+}
+
+/* Form stili */
+#survey-form {
+    padding: 30px 30px 0 30px;
+}
+
+/* Fullname, email, yaş ve cinsiyet alanları için stiller */
+#name-label, #email-label, #age-label {
+    text-align: start;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    color: #f1e2e2;
+}
+
+#gender-label {
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: aquamarine;
+}
+
+/* Radio ve Checkbox Grupları */
+.radio-group{
+    margin: 15px 0;
+    text-align: start;
+}
+
+.feedback-group {
+    display: inline;
+    margin: 15px 0;
+}
+
+.radio-group label,
+.feedback-group label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #f1e2e2;
+}
+
+/* Mesaj yazma alanı stili */
+.message {
+    margin-top: 20px;
+    text-align: left;
+    color: #f1e2e2;
+}
+
+/* Gönder butonu stili */
+.sign {
+    background-color: #f85c5c;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
